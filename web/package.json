@@ -1,0 +1,41 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@mantine/core": "^7.1.2",
+    "@mantine/hooks": "^7.1.2",
+    "@redwoodjs/auth-dbauth-web": "6.3.2",
+    "@redwoodjs/forms": "6.3.2",
+    "@redwoodjs/router": "6.3.2",
+    "@redwoodjs/web": "6.3.2",
+    "framer-motion": "^9",
+    "humanize-string": "2.1.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/storybook-addon": "^5.0.1",
+    "@redwoodjs/vite": "6.3.2",
+    "@storybook/addon-styling": "^1.3.7",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-mantine": "^1.8.0",
+    "postcss-simple-vars": "^7.0.1",
+    "storybook-dark-mode": "^3.0.1"
+  }
+}
